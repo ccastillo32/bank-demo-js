@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client'
 
 import 'bootstrap/dist/css/bootstrap.css'
+import "@fontsource/comfortaa";
 
 import './main.css'
 
