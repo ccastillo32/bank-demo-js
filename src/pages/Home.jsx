@@ -12,8 +12,8 @@ export function Home () {
           nostrum animi obcaecati expedita eius. Minus odio laboriosam eveniet!
         </p>
         <div className='button-wrapper d-flex align-items-center'>
-          <a className="btn btn-md register" role="button">Register</a>
-          <a className="btn btn-md login" role="button">Login</a>
+          <input type='button' value='Register' className='btn btn-md register' />
+          <input type='button' value='Login' className='btn btn-md login' />
         </div>
       </div>
     </div>
