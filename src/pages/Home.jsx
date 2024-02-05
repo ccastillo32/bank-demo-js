@@ -1,7 +1,11 @@
+import './home.css'
+
 export function Home () {
   return (
-    <div className="d-flex align-items-center justify-content-center">
-      Home
+    <div id="sample-text-card" className="card">
+      <div className="card-body">
+        <h1>Easy-Way Bank</h1>
+      </div>
     </div>
   )
 }
