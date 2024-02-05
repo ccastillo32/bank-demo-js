@@ -24,7 +24,19 @@
   margin-right: 7px;
 }
 
+.register:hover {
+  background-color: #FF4E00;
+  border: 1px solid #8B2B00;
+  color: black;
+}
+
 .login {
   background-color: #FFB114;
   border: 1px solid #543800;
+}
+
+.login:hover {
+  background-color: #FFB114;
+  border: 1px solid #543800;
+  color: black;
 }
