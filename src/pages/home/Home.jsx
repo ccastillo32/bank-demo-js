@@ -1,7 +1,7 @@
-import { WelcomeCard } from '../../components/welcome-card/WelcomeCard'
+import { WelcomeTextCard } from "../../components/welcome-card/WelcomeTextCard";
 
 export function Home () {
   return (
-    <WelcomeCard />
+    <WelcomeTextCard />
   )
 }

@@ -1,13 +1,13 @@
-#sample-text-card {
+#welcome-text-card {
   margin: 0px 100px;
   color: white;
 }
 
-#sample-text-card h1 {
+#welcome-text-card h1 {
   font-size: 40px;
 }
 
-#sample-text-card p {
+#welcome-text-card p {
   font-size: 14px;
 }
 

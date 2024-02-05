@@ -1,8 +1,8 @@
-import './welcome-card.css'
+import './welcome-text-card.css'
 
-export function WelcomeCard () {
+export function WelcomeTextCard () {
   return (
-    <div id="sample-text-card" className="card col-6 bg-transparent border-0">
+    <div id="welcome-text-card" className="card col-6 bg-transparent border-0">
       <div className="card-body">
 
         <h1>Easy-Way Bank</h1>
