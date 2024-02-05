@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "@fontsource/comfortaa";
 
 import './main.css'
-
-import { Home } from './pages/Home'
+import { Home } from './pages/home/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Home />,

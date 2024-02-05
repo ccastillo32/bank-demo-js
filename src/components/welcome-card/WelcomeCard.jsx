@@ -1,6 +1,6 @@
-import './home.css'
+import './welcome-card.css'
 
-export function Home () {
+export function WelcomeCard () {
   return (
     <div id="sample-text-card" className="card col-6 bg-transparent border-0">
       <div className="card-body">
