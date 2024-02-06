@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom'
 import './register.css'
+import { useEffect } from 'react'
 
 export function Register () {
+  useEffect(() => {
+    document.title = 'Register'
+  }, [])
+
   return (
     <div className="d-flex align-items-center justify-content-center page-container">
 
