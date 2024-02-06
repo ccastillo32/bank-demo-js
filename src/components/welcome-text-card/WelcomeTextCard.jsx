@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { Button } from '../button/Button'
 import './welcome-text-card.css'
 
 export function WelcomeTextCard () {
@@ -18,10 +17,8 @@ export function WelcomeTextCard () {
         </p>
 
         <div className='button-wrapper d-flex align-items-center'>
-          <Link to='register'>
-            <Button name="Register" mode="register" />
-          </Link>
-          <Button name="Login" mode="login" />
+          <Link to='register' className='btn btn-lg register mr-3'>Register</Link>
+          <Link to='login' className='btn btn-lg login'>Login</Link>
         </div>
         
       </div>
