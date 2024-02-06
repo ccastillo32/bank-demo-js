@@ -3,7 +3,7 @@
   font-family: "Comfortaa", sans-serif;
 }
 
-body {
+.page-container {
   height: 100vh;
   background-image: url('assets/main_background.png');
   background-size: cover;
