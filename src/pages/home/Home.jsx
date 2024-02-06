@@ -1,4 +1,4 @@
-import { WelcomeTextCard } from "../../components/welcome-card/WelcomeTextCard";
+import { WelcomeTextCard } from "../../components/welcome-text-card/WelcomeTextCard";
 
 export function Home () {
   return (
