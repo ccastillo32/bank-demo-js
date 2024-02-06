@@ -4,8 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "@fontsource/comfortaa";
 
 import './main.css'
-import { Home } from './pages/home/Home';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Home />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 )
