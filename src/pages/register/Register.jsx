@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './register.css'
 
 export function Register () {
@@ -43,6 +44,19 @@ export function Register () {
               <button className='btn btn-lg'>Register</button>
             </div>
           </form>
+
+          {/* Sign in message */}
+          <p className='card-text text-white my-2'>
+            Already have an account? <span className='ms-2 text-warning'>Sign In</span>
+          </p>
+
+          {/* Back button */}
+          <small className='text-warning'>
+            <i className='fa fa-arrow-alt-circle-left'></i>
+            <Link to='/' className='btn btn-sm text-warning'>
+              Back
+            </Link>
+          </small>
 
         </div>
       </div>
