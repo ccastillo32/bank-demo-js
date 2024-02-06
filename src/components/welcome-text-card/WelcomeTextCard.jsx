@@ -17,7 +17,7 @@ export function WelcomeTextCard () {
         </p>
 
         <div className='button-wrapper d-flex align-items-center'>
-          <Link to='register' className='btn btn-lg register mr-3'>Register</Link>
+          <Link to='register' className='btn btn-lg register'>Register</Link>
           <Link to='login' className='btn btn-lg login'>Login</Link>
         </div>
         
