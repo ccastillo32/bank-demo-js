@@ -38,6 +38,10 @@ export function Register () {
                 <input type="password" name="last-name" className="form-control form-control-lg   " placeholder="Confirm password" />
               </div>
             </div>
+
+            <div className="form-group col">
+              <button className='btn btn-lg'>Register</button>
+            </div>
           </form>
 
         </div>
