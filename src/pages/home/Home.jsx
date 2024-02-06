@@ -2,6 +2,8 @@ import { WelcomeTextCard } from "../../components/welcome-text-card/WelcomeTextC
 
 export function Home () {
   return (
-    <WelcomeTextCard />
+    <div className="d-flex align-items-center page-container">
+      <WelcomeTextCard />
+    </div>
   )
 }
