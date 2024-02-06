@@ -1,5 +1,4 @@
-import { LoginButton } from '../login-btn/LoginButton'
-import { RegisterButton } from '../register-btn/RegisterButton'
+import { Button } from '../button/Button'
 import './welcome-text-card.css'
 
 export function WelcomeTextCard () {
@@ -18,8 +17,8 @@ export function WelcomeTextCard () {
         </p>
 
         <div className='button-wrapper d-flex align-items-center'>
-          <RegisterButton name='Register' />
-          <LoginButton name="Login" />
+          <Button name="Register" mode="register" />
+          <Button name="Login" mode="login" />
         </div>
         
       </div>
